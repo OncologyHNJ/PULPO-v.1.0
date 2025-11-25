@@ -1,0 +1,31 @@
+sample	chromosome	chromosome_start	chromosome_end	copy_number	mutation_type
+Synthetic_Patient3	5	96024675	109610616	3	gain
+Synthetic_Patient3	3	2856466	28377312	1	loss
+Synthetic_Patient3	1	36161409	49590440	2	copy neutral
+Synthetic_Patient3	13	60445159	89932355	1	loss
+Synthetic_Patient3	5	89934475	154427175	3	gain
+Synthetic_Patient3	17	60445159	89932355	1	loss
+Synthetic_Patient3	1	36161409	40956367	2	copy neutral
+Synthetic_Patient3	6	88027350	92014202	3	gain
+Synthetic_Patient3	17	109619453	144682401	1	loss
+Synthetic_Patient3	6	144146157	109610616	1	loss
+Synthetic_Patient3	7	95216851	180930584	1	loss
+Synthetic_Patient3	1	54333990	180991554	1	loss
+Synthetic_Patient3	5	70821512	57042204	3	gain
+Synthetic_Patient3	7	144146157	113054665	3	gain
+Synthetic_Patient3	13	13249996	29126411	4	gain
+Synthetic_Patient3	5	95216851	109610616	1	loss
+Synthetic_Patient3	7	96024675	159334984	1	loss
+Synthetic_Patient3	5	154430085	154427175	3	gain
+Synthetic_Patient3	1	54333990	180991554	3	gain
+Synthetic_Patient3	5	92017586	113054665	3	gain
+Synthetic_Patient3	3	21185509	73804209	1	loss
+Synthetic_Patient3	3	34114989	29126411	3	gain
+Synthetic_Patient3	5	96024675	154427175	1	loss
+Synthetic_Patient3	1	42052529	36154423	1	loss
+Synthetic_Patient3	5	95216851	144682401	1	loss
+Synthetic_Patient3	13	112266967	109610616	1	loss
+Synthetic_Patient3	5	39493048	33994569	2	copy neutral
+Synthetic_Patient3	7	89934475	112263535	2	copy neutral
+Synthetic_Patient3	13	112266967	144682401	1	loss
+Synthetic_Patient3	5	89934475	170739897	2	copy neutral

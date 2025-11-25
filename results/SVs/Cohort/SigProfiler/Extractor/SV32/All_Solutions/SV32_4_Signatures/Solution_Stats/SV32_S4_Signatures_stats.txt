@@ -1,0 +1,5 @@
+Signatures	Stability	Total Mutations
+SV32A	0.728	58
+SV32B	-0.241	44
+SV32C	-0.086	41
+SV32D	0.319	36

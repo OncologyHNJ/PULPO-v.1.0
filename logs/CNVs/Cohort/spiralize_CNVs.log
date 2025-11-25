@@ -1,0 +1,10 @@
+Aviso:
+package ‘spiralize’ was built under R version 4.4.3 
+📂 Reading CNV signature activities file: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Cohort/SigProfiler/Extractor/CNV48/Suggested_Solution/COSMIC_CNV48_Decomposed_Solution/Activities/COSMIC_CNV48_Activities.txt
+📝 Output SVG: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Cohort/SigProfiler/COSMIC_CNV48_Activities_CNV_spiral.svg
+📝 Output PDF: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Cohort/SigProfiler/COSMIC_CNV48_Activities_CNV_spiral.pdf
+null device 
+          1 
+null device 
+          1 
+✅ Spiral plots generated successfully.

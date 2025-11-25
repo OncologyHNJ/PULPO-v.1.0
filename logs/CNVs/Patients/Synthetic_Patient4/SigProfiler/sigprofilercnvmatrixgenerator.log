@@ -1,0 +1,17 @@
+🔹 Running CNV Matrix Generator for sample: Synthetic_Patient4 
+   Input: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Patients/Synthetic_Patient4/SigProfiler/data/SigProfilerCNVdf.tsv 
+   Output: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Patients/Synthetic_Patient4/SigProfiler/results/MatrixGenerator 
+
+python:         /home/user/miniconda3/envs/PULPO/bin/python3.10
+libpython:      /home/user/miniconda3/envs/PULPO/lib/libpython3.10.so
+pythonhome:     /home/user/miniconda3/envs/PULPO:/home/user/miniconda3/envs/PULPO
+version:        3.10.14 | packaged by conda-forge | (main, Mar 20 2024, 12:45:18) [GCC 12.3.0]
+numpy:          /home/user/.local/lib/python3.10/site-packages/numpy
+numpy_version:  1.23.5
+
+NOTE: Python version was forced by use_python() function
+✅ SigProfilerMatrixGeneratorR loaded successfully.
+🔹 CNV file contains 30 rows. Running matrix generator...
+⚠️ Warning: 'sys not found' error ignored.
+Saved matrix to /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Patients/Synthetic_Patient4/SigProfiler/results/MatrixGenerator/Synthetic_Patient4.CNV48.matrix.tsv
+✔️ Finished CNV Matrix Generation for sample: Synthetic_Patient4 

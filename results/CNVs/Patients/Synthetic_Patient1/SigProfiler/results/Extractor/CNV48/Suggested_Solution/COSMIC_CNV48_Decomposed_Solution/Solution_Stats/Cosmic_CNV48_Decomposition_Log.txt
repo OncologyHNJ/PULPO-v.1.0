@@ -1,0 +1,39 @@
+############################ Signature Decomposition Details ################################
+
+
+Context Type: 48
+Genome Build: GRCh37
+The following signatures are excluded: 
+
+
+
+######################## Decomposing CNV48A ########################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [1]
+L2 Error % 0.73
+Cosine Similarity 0.69
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [0, 1]
+L2 Error % 0.49
+Cosine Similarity 0.87
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 2 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [0, 1, 12]
+L2 Error % 0.41
+Cosine Similarity 0.91
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 3 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [0, 1, 12]
+L2 Error % 0.41
+Cosine Similarity 0.91
+
+#################### Final Composition #################################
+[0, 1, 12]
+L2 Error % 0.41
+Cosine Similarity 0.91

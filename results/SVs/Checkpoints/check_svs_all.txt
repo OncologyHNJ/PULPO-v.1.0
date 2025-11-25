@@ -1,0 +1,100 @@
+Processing sample Synthetic_Patient9...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient9/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient9/OGMdata//smap_sintetico_09.smap for sample Synthetic_Patient9 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient9 
+Finished processing sample Synthetic_Patient9
+Processing sample Synthetic_Patient2...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient2/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient2/OGMdata//smap_sintetico_02.smap for sample Synthetic_Patient2 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient2 
+Finished processing sample Synthetic_Patient2
+Processing sample Synthetic_Patient10...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient10/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient10/OGMdata//smap_sintetico_10.smap for sample Synthetic_Patient10 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient10 
+Finished processing sample Synthetic_Patient10
+Processing sample Synthetic_Patient8...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient8/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient8/OGMdata//smap_sintetico_08.smap for sample Synthetic_Patient8 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient8 
+Finished processing sample Synthetic_Patient8
+Processing sample Synthetic_Patient3...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient3/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient3/OGMdata//smap_sintetico_03.smap for sample Synthetic_Patient3 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient3 
+Finished processing sample Synthetic_Patient3
+Processing sample Synthetic_Patient7...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient7/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient7/OGMdata//smap_sintetico_07.smap for sample Synthetic_Patient7 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient7 
+Finished processing sample Synthetic_Patient7
+Processing sample Synthetic_Patient5...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient5/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient5/OGMdata//smap_sintetico_05.smap for sample Synthetic_Patient5 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient5 
+Finished processing sample Synthetic_Patient5
+Processing sample Synthetic_Patient1...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient1/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient1/OGMdata//smap_sintetico_01.smap for sample Synthetic_Patient1 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient1 
+Finished processing sample Synthetic_Patient1
+Processing sample Synthetic_Patient6...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient6/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient6/OGMdata//smap_sintetico_06.smap for sample Synthetic_Patient6 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient6 
+Finished processing sample Synthetic_Patient6
+Processing sample Synthetic_Patient4...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient4/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient4/OGMdata//smap_sintetico_04.smap for sample Synthetic_Patient4 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient4 
+Finished processing sample Synthetic_Patient4
+Processing sample Synthetic_Patient9...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient9/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient9/OGMdata//smap_sintetico_09.smap for sample Synthetic_Patient9 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient9 
+Finished processing sample Synthetic_Patient9
+Processing sample Synthetic_Patient5...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient5/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient5/OGMdata//smap_sintetico_05.smap for sample Synthetic_Patient5 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient5 
+Finished processing sample Synthetic_Patient5
+Processing sample Synthetic_Patient2...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient2/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient2/OGMdata//smap_sintetico_02.smap for sample Synthetic_Patient2 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient2 
+Finished processing sample Synthetic_Patient2
+Processing sample Synthetic_Patient8...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient8/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient8/OGMdata//smap_sintetico_08.smap for sample Synthetic_Patient8 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient8 
+Finished processing sample Synthetic_Patient8
+Processing sample Synthetic_Patient10...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient10/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient10/OGMdata//smap_sintetico_10.smap for sample Synthetic_Patient10 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient10 
+Finished processing sample Synthetic_Patient10
+Processing sample Synthetic_Patient4...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient4/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient4/OGMdata//smap_sintetico_04.smap for sample Synthetic_Patient4 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient4 
+Finished processing sample Synthetic_Patient4
+Processing sample Synthetic_Patient7...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient7/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient7/OGMdata//smap_sintetico_07.smap for sample Synthetic_Patient7 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient7 
+Finished processing sample Synthetic_Patient7
+Processing sample Synthetic_Patient3...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient3/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient3/OGMdata//smap_sintetico_03.smap for sample Synthetic_Patient3 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient3 
+Finished processing sample Synthetic_Patient3
+Processing sample Synthetic_Patient1...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient1/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient1/OGMdata//smap_sintetico_01.smap for sample Synthetic_Patient1 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient1 
+Finished processing sample Synthetic_Patient1
+Processing sample Synthetic_Patient6...
+🔹 Checking OGM .smap files in: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient6/OGMdata/ 
+✅ OK: The file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient6/OGMdata//smap_sintetico_06.smap for sample Synthetic_Patient6 contains variants.
+✔️ Validation completed successfully for sample: Synthetic_Patient6 
+Finished processing sample Synthetic_Patient6

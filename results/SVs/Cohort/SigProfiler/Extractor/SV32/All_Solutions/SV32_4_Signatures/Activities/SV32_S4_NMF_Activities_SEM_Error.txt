@@ -1,0 +1,11 @@
+Samples	SV32A	SV32B	SV32C	SV32D
+Synthetic_Patient1	1.32E-01	2.09E-01	1.81E-01	1.63E-01
+Synthetic_Patient10	1.59E-01	1.78E-01	2.03E-01	1.58E-01
+Synthetic_Patient2	1.82E-01	1.38E-01	1.57E-01	9.60E-02
+Synthetic_Patient3	1.76E-01	1.89E-01	1.49E-01	9.92E-02
+Synthetic_Patient4	1.40E-01	1.68E-01	2.25E-01	2.15E-01
+Synthetic_Patient5	2.21E-01	2.37E-01	1.37E-01	7.83E-02
+Synthetic_Patient6	2.20E-01	1.65E-01	2.51E-01	1.68E-01
+Synthetic_Patient7	9.21E-02	4.92E-02	1.98E-01	2.01E-01
+Synthetic_Patient8	1.96E-01	1.10E-01	2.09E-01	1.56E-01
+Synthetic_Patient9	2.13E-01	1.56E-01	1.74E-01	6.96E-02

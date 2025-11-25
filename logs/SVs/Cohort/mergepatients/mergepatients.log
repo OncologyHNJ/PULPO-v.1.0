@@ -1,0 +1,10 @@
+🔹 Merging SigProfiler SV matrices from: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/SVs/Patients 
+🔹 Output cohort matrix will be saved to: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/SVs/Cohort/Cohort.SV32.matrix.tsv 
+
+📂 Found 10 potential patient matrix files.
+✅ Successfully loaded 10 SV matrix files.
+
+🎯 Cohort-level SV32 matrix successfully written to:
+ /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/SVs/Cohort/Cohort.SV32.matrix.tsv 
+🧩 Total patients merged: 10 
+✅ Merge completed.

@@ -1,0 +1,11 @@
+Samples	CNV48A	CNV48B
+Synthetic_Patient1	2.70E-01	2.70E-01
+Synthetic_Patient10	2.94E-01	2.94E-01
+Synthetic_Patient2	2.38E-01	2.38E-01
+Synthetic_Patient3	3.09E-01	3.09E-01
+Synthetic_Patient4	3.75E-01	3.75E-01
+Synthetic_Patient5	3.02E-01	3.02E-01
+Synthetic_Patient6	3.13E-01	3.13E-01
+Synthetic_Patient7	3.09E-01	3.09E-01
+Synthetic_Patient8	2.62E-01	2.62E-01
+Synthetic_Patient9	3.23E-01	3.23E-01

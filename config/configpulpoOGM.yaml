@@ -1,0 +1,48 @@
+version: 2.0
+
+input:
+  samples: "/home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/config/samples_synthetic.tsv"
+  bionanodata: "/home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/DATA"
+
+
+directories:
+  workdirectory: "/home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic"
+  pythonenvdir: "/home/user/miniconda3/envs/PULPO/bin/python3.10"
+  scriptsdir: "/home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/scripts"
+
+analysis:
+  zip: false
+  analysis_type: "SVs_and_CNVs"
+  run_cohort_analysis: true
+
+inputs:
+  CNVs:
+    source: "ogm"
+    format: "txt"
+  SVs:
+    source: "ogm"
+    format: "smap"
+
+pipelines:
+  CNVs:
+    methods: ["cosmic", "drews", "tao"]
+  SVs:
+    methods: ["cosmic"]
+
+signatures:
+  replicates: 1000
+  min_signatures: 1
+  max_signatures: 25
+
+meta:
+  seed_strategy: "global file-based (Seeds_master.txt)"
+
+resources:
+  total_mem_mb: 100000
+  total_cores: 4
+  per_rule:
+    sigprofiler_individual: 16000
+    sigprofiler_cohort: 64000
+    spiralizeplot: 16000
+    taomethod: 24000
+    drewsmethod: 24000

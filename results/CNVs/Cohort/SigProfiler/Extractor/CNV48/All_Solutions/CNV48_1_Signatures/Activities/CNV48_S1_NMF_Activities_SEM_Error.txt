@@ -1,0 +1,11 @@
+Samples	CNV48A
+Synthetic_Patient1	0.00E+00
+Synthetic_Patient10	0.00E+00
+Synthetic_Patient2	0.00E+00
+Synthetic_Patient3	0.00E+00
+Synthetic_Patient4	0.00E+00
+Synthetic_Patient5	0.00E+00
+Synthetic_Patient6	0.00E+00
+Synthetic_Patient7	0.00E+00
+Synthetic_Patient8	0.00E+00
+Synthetic_Patient9	0.00E+00

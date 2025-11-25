@@ -1,0 +1,11 @@
+sample_id	predicted_label
+Synthetic_Patient1	Predicted sensitive
+Synthetic_Patient10	Predicted resistant
+Synthetic_Patient2	Predicted resistant
+Synthetic_Patient3	Predicted sensitive
+Synthetic_Patient4	Predicted resistant
+Synthetic_Patient5	Predicted resistant
+Synthetic_Patient6	Predicted resistant
+Synthetic_Patient7	Predicted resistant
+Synthetic_Patient8	Predicted sensitive
+Synthetic_Patient9	Predicted resistant

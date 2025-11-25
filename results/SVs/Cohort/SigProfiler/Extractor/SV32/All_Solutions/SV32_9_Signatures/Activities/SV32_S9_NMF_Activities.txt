@@ -1,0 +1,11 @@
+Samples	SV32A	SV32B	SV32C	SV32D	SV32E	SV32F	SV32G	SV32H	SV32I
+Synthetic_Patient1	3	0	7	2	0	2	4	0	0
+Synthetic_Patient10	3	8	2	2	0	3	0	0	0
+Synthetic_Patient2	8	0	2	0	5	0	0	0	0
+Synthetic_Patient3	7	0	1	4	0	0	4	0	0
+Synthetic_Patient4	5	0	2	2	7	2	3	0	0
+Synthetic_Patient5	7	0	4	7	0	2	1	0	0
+Synthetic_Patient6	0	4	0	2	3	0	0	7	4
+Synthetic_Patient7	1	4	0	0	4	2	5	0	0
+Synthetic_Patient8	5	6	0	0	0	6	0	0	0
+Synthetic_Patient9	5	0	2	0	0	0	0	10	0

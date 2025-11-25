@@ -1,0 +1,11 @@
+Samples	SV32A
+Synthetic_Patient1	18
+Synthetic_Patient10	18
+Synthetic_Patient2	15
+Synthetic_Patient3	16
+Synthetic_Patient4	21
+Synthetic_Patient5	21
+Synthetic_Patient6	20
+Synthetic_Patient7	16
+Synthetic_Patient8	17
+Synthetic_Patient9	17

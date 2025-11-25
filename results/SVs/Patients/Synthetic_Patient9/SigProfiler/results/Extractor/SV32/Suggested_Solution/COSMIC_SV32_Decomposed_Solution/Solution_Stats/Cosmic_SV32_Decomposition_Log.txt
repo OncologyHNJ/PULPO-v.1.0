@@ -1,0 +1,27 @@
+############################ Signature Decomposition Details ################################
+
+
+Context Type: 32
+Genome Build: GRCh38
+The following signatures are excluded: 
+
+
+
+######################## Decomposing SV32A ########################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [1]
+L2 Error % 0.94
+Cosine Similarity 0.33
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [1]
+L2 Error % 0.94
+Cosine Similarity 0.33
+
+#################### Final Composition #################################
+[1]
+L2 Error % 0.94
+Cosine Similarity 0.33

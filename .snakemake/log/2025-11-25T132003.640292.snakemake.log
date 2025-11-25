@@ -1,0 +1,25 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job stats:
+job               count
+--------------  -------
+spiralize_cnvs        1
+total                 1
+
+Select jobs to execute...
+
+[Tue Nov 25 13:20:04 2025]
+rule spiralize_cnvs:
+    input: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Cohort/SigProfiler/Extractor/CNV48/Suggested_Solution/COSMIC_CNV48_Decomposed_Solution/Activities/COSMIC_CNV48_Activities.txt
+    output: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Cohort/SigProfiler/COSMIC_CNV48_Activities_CNV_spiral.svg, /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Cohort/SigProfiler/COSMIC_CNV48_Activities_CNV_spiral.pdf
+    log: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/logs/CNVs/Cohort/spiralize_CNVs.log
+    jobid: 0
+    reason: Forced execution
+    resources: tmpdir=/tmp, mem_mb=16000, mem_mib=15259, threads=2
+
+[Tue Nov 25 13:20:05 2025]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: .snakemake/log/2025-11-25T132003.640292.snakemake.log

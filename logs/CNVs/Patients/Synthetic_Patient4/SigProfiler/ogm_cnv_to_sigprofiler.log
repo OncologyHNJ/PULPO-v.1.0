@@ -1,0 +1,7 @@
+🔹 Processing CNV file: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/DATA/Patients/Synthetic_Patient4/OGMdata/csv_CNV_sintetico_04.txt 
+🔹 Output path: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Patients/Synthetic_Patient4/SigProfiler/data/SigProfilerCNVdf.tsv 
+🔹 Platform mode: OGM 
+[1] TRUE
+✅ CNV file loaded with 30 rows and 12 columns.
+✅ CNV formatted and written to: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Patients/Synthetic_Patient4/SigProfiler/data/SigProfilerCNVdf.tsv 
+✔️ Finished CNV formatting for Synthetic_Patient4 

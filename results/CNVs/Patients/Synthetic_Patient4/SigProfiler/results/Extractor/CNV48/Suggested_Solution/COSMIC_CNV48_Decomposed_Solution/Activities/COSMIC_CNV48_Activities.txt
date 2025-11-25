@@ -1,0 +1,2 @@
+Samples	CN2	CN13
+Synthetic_Patient4	15	15

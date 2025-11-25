@@ -1,0 +1,11 @@
+sample	anonymised	source	cnv_caller	cnv_path	genome_build	purity	ploidy
+Synthetic1	Synthetic_Patient1	ogm	bionano		CRCh38	NA	2
+Synthetic2	Synthetic_Patient2	ogm	bionano		CRCh38	NA	2
+Synthetic3	Synthetic_Patient3	ogm	bionano		CRCh38	NA	2
+Synthetic4	Synthetic_Patient4	ogm	bionano		CRCh38	NA	2
+Synthetic5	Synthetic_Patient5	ogm	bionano		CRCh38	NA	2
+Synthetic6	Synthetic_Patient6	ogm	bionano		CRCh38	NA	2
+Synthetic7	Synthetic_Patient7	ogm	bionano		CRCh38	NA	2
+Synthetic8	Synthetic_Patient8	ogm	bionano		CRCh38	NA	2
+Synthetic9	Synthetic_Patient9	ogm	bionano		CRCh38	NA	2
+Synthetic10	Synthetic_Patient10	ogm	bionano		CRCh38	NA	2

@@ -1,0 +1,15 @@
+🔹 Merging CNV48 matrices from directory: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Patients 
+📂 Found 10 potential CNV matrix files.
+✅ Reading file: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Patients/Synthetic_Patient1/SigProfiler/results/MatrixGenerator/Synthetic_Patient1.CNV48.matrix.tsv 
+✅ Reading file: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Patients/Synthetic_Patient10/SigProfiler/results/MatrixGenerator/Synthetic_Patient10.CNV48.matrix.tsv 
+✅ Reading file: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Patients/Synthetic_Patient2/SigProfiler/results/MatrixGenerator/Synthetic_Patient2.CNV48.matrix.tsv 
+✅ Reading file: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Patients/Synthetic_Patient3/SigProfiler/results/MatrixGenerator/Synthetic_Patient3.CNV48.matrix.tsv 
+✅ Reading file: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Patients/Synthetic_Patient4/SigProfiler/results/MatrixGenerator/Synthetic_Patient4.CNV48.matrix.tsv 
+✅ Reading file: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Patients/Synthetic_Patient5/SigProfiler/results/MatrixGenerator/Synthetic_Patient5.CNV48.matrix.tsv 
+✅ Reading file: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Patients/Synthetic_Patient6/SigProfiler/results/MatrixGenerator/Synthetic_Patient6.CNV48.matrix.tsv 
+✅ Reading file: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Patients/Synthetic_Patient7/SigProfiler/results/MatrixGenerator/Synthetic_Patient7.CNV48.matrix.tsv 
+✅ Reading file: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Patients/Synthetic_Patient8/SigProfiler/results/MatrixGenerator/Synthetic_Patient8.CNV48.matrix.tsv 
+✅ Reading file: /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Patients/Synthetic_Patient9/SigProfiler/results/MatrixGenerator/Synthetic_Patient9.CNV48.matrix.tsv 
+🔄 Combining 10 CNV matrices into a single cohort file...
+✅ Cohort CNV48 matrix successfully written to:
+   /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Cohort/SigProfiler/MatrixGenerator/Cohort.CNV48.matrix.tsv 

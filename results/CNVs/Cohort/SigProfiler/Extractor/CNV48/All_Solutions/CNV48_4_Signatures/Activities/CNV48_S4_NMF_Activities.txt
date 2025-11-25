@@ -1,0 +1,11 @@
+Samples	CNV48A	CNV48B	CNV48C	CNV48D
+Synthetic_Patient1	24	0	4	1
+Synthetic_Patient10	1	6	21	0
+Synthetic_Patient2	17	0	1	10
+Synthetic_Patient3	0	19	0	11
+Synthetic_Patient4	8	22	0	0
+Synthetic_Patient5	3	17	9	1
+Synthetic_Patient6	2	0	24	3
+Synthetic_Patient7	5	0	7	17
+Synthetic_Patient8	23	5	0	2
+Synthetic_Patient9	1	5	3	20

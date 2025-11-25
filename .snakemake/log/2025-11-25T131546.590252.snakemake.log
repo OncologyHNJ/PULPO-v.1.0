@@ -1,0 +1,8 @@
+Building DAG of jobs...
+MissingInputException in rule all in file /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/Snakefile, line 272:
+Missing input files for rule all:
+    affected files:
+        /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Cohort/Drews/drews_signatures_results.rds
+        /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/SVs/Cohort/SigProfiler/COSMIC_SV32_Activities_SV_spiral.svg
+        /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Cohort/Drews/activities.png
+        /home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/results/CNVs/Cohort/Drews/predictions.csv
