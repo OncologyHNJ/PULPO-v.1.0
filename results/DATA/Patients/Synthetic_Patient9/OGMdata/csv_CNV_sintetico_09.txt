@@ -1,1 +1,0 @@
-/home/user/MARTA/LABO/PULPO/PULPO_v2.0_Bioinformatics_Synthetic/DATA/Synthetic9/csv_CNV_sintetico_09.txt
