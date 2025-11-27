@@ -18,7 +18,7 @@ For reproducibility of previous analyses, the original implementation remains av
 A versioned, archived snapshot of this release is available via Zenodo (10.5281/zenodo.17306077).
 <!-- Logo aligned to the right -->
 <p align="right">
-  <img src=".figs/PULPOlogo (1).png" width="220">
+  <img src="figs/PULPOlogo.png" width="220">
 </p>
 
 <!-- Title and description -->
