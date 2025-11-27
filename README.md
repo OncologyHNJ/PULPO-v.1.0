@@ -22,7 +22,7 @@ A versioned, archived snapshot of this release is available via Zenodo (10.5281/
 </p>
 
 <!-- Title and description -->
-<h1 align="left"> PULPO</h1>
+<h1 align="left"> PULPO  v2.0 </h1>
 <h3 align="left"> Pipeline of Understanding Large-scale Patterns of Oncogenomic signatures</h3>
 
 <!-- Badges aligned to the right -->
@@ -43,7 +43,6 @@ A versioned, archived snapshot of this release is available via Zenodo (10.5281/
 </p>
 
 
-
 ###### Implemented by: 
 ***Marta Portasany-Rodríguez***
 
@@ -51,8 +50,6 @@ A versioned, archived snapshot of this release is available via Zenodo (10.5281/
 
 *Jorge García-Martínez*
 
-
-# PULPO v2.0 – Pipeline of Understanding Large-scale Patterns of Oncogenomic signatures
 
 PULPO is a **Snakemake-based workflow** for analysing **structural variants (SVs)** and **copy-number variants (CNVs)** and extracting **mutational signatures** from:
 
