@@ -107,7 +107,32 @@ To run PULPO, follow these steps:
     conda env create -f config/PULPO.yml
     conda activate PULPO
    ```
+4. ** Install dependencies **
+```bash
+conda activate PULPO
+R
+ ```
+ ```R
+## 1) BiocManager (si no lo tienes)
+if (!requireNamespace("BiocManager", quietly = TRUE)) {
+  install.packages("BiocManager")
+}
 
+## 2) sigminer (estable, con dependencias)
+BiocManager::install("sigminer", dependencies = TRUE)
+
+## 3) remotes (para instalar desde GitHub)
+if (!requireNamespace("remotes", quietly = TRUE)) {
+  install.packages("remotes")
+}
+
+## 4) CINSignatureQuantification desde GitHub (Drews et al.)
+remotes::install_github(
+  "markowetzlab/CINSignatureQuantification",
+  build_vignettes = FALSE,
+  dependencies = TRUE
+)
+ ```
 This will:
 
 - Read `config/configpulpoOGM.yaml` and your sample sheet.
