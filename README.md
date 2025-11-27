@@ -204,7 +204,7 @@ inputs:
 - For NGS SVs:
 
     - source: "ngs", format: "bedpe" → PULPO uses BEDPE directly.
-
+YOu have to convert your files in a bedpe format before executing PULPO. 
 - For OGM CNVs:
 
     - source: "ogm", format: "csv" (or "txt") → CNV export tables are reformatted.
@@ -212,6 +212,7 @@ inputs:
 - For NGS CNVs:
 
     - source: "ngs", format: "cns" or "bed" depending on your CNV caller.
+ You have to convert your files in a bed or cns format before executing PULPO and also add the file directory of each sample in the samples.tsv of tour cohort analysis mantaining the directory structure waited for PULPO. 
  
 ### 5. Signature Catalogue
 
