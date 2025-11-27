@@ -107,7 +107,7 @@ To run PULPO, follow these steps:
     conda env create -f config/PULPO.yml
     conda activate PULPO
    ```
-4. ** Install dependencies **
+4. **Install dependencies**
 ```bash
 conda activate PULPO
 R
