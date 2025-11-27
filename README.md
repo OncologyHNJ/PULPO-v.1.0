@@ -18,10 +18,11 @@
     <img alt="bioRxiv preprint DOI: 10.1101/2025.07.02.661487"
          src="https://img.shields.io/badge/preprint-bioRxiv-blue">
   </a>
-  <a href="(https://doi.org/10.5281/zenodo.17700531)">
+  <a href="https://doi.org/10.5281/zenodo.17700531">
     <img alt="Zenodo DOI:"
-         src="https://zenodo.org/badge/DOI/10.5281/zenodo.17700531.svg">
+       src="https://zenodo.org/badge/DOI/10.5281/zenodo.17700531.svg">
   </a>
+
 </p>
 
 
@@ -81,7 +82,7 @@ conda activate PULPO
 
 # 3. Run the pipeline
 snakemake --cores 4
-
+```
 
 ## Installation 🛠️
 
@@ -89,7 +90,7 @@ To run PULPO, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/OncologyHNJ/PULPO.git
+   git clone https://github.com/OncologyHNJ/PULPO-v.2.0.0.git
    cd PULPO
    ```
 
@@ -129,12 +130,12 @@ You should copy and edit this file to adapt it to your own cohort.
 input:
   samples: "/path/to/config/samples_mycohort.tsv"
   bionanodata: "/path/to/OGM_or_CNV_data_root"
+```
 - input.samples: path to a TSV file with your sample metadata.
     - Must contain at least a sample column.
     - If anonymised is missing or empty, PULPO can fall back to using sample as anonymised ID.
-
 - input.bionanodata: root directory containing per-sample folders with OGM exports or CNV/SV files (for OGM use cases).
-```
+
 
 For NGS-only analyses you can still use the same sample sheet and point PULPO to directories with BEDPE/CNV tables.
 
@@ -182,7 +183,7 @@ analysis:
 
     - true → run individual and cohort-level modules.
     - false → only per-sample analysis is performed.
-    - 
+      
 ### 4. Input Sources and Formats
 
 PULPO v2.0 can work with both OGM and NGS calls:
@@ -351,7 +352,7 @@ To see the exact shell commands and continue even if some samples fail:
 snakemake --cores 4 --printshellcmds --keep-going --rerun-incomplete
 ```
 Logs are written under logs/ with a structure that mirrors the rules and modules, e.g.:
-```bash
+```text
 logs/SVs/Patients/<anonymised>/SigProfiler/...
 logs/CNVs/Cohort/Drews/...
 logs/CNVs/Cohort/Tao/...```
@@ -389,7 +390,7 @@ For real analyses, replace these with your own data and sample sheet, and update
 - [Snakemake Documentation](https://snakemake.readthedocs.io/)
 - [SigProfilerMatrixGenerator](https://github.com/AlexandrovLab/SigProfilerMatrixGenerator)
 - [SigProfilerExtractor](https://github.com/AlexandrovLab/SigProfilerExtractor)
-- [CINSignatureQuantification (Drews et al)](https://github.com/markowetzlab/CINSignatureQuantification))
+- [CINSignatureQuantification (Drews et al.)](https://github.com/markowetzlab/CINSignatureQuantification)
 - [sigminer (Tao et al.)](https://github.com/shaoqiangzhang/sigminer)
 - [Bionano Genomics (OGM)](https://bionanogenomics.com/)
 
