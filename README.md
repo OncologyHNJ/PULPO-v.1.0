@@ -4,7 +4,7 @@
 </p>
 
 <!-- Title and description -->
-<h1 align="left"> PULPO  v2.0.0 </h1>
+<h1 align="left"> PULPO  v1.0 </h1>
 <h3 align="left"> Pipeline of Understanding Large-scale Patterns of Oncogenomic signatures</h3>
 
 <!-- Badges aligned to the right -->
@@ -35,16 +35,16 @@
 
 ## Introduction
 
-PULPO v2.0 is a major update of our Snakemake-based pipeline for analysing **structural variants (SVs)** and **copy number variants (CNVs)** extracting **mutational signatures** from both **Optical Genome Mapping (OGM)** and **NGS-based** data. 
+PULPO v1.0 is a major update of our Snakemake-based pipeline for analysing **structural variants (SVs)** and **copy number variants (CNVs)** extracting **mutational signatures** from both **Optical Genome Mapping (OGM)** and **NGS-based** data. 
 
-Unlike v1.0 (now deprecated and kept only for reproducibility), PULPO v2.0:
+Unlike v1.0 (now deprecated and kept only for reproducibility), PULPO v1.0:
 
 - Supports **multiple CNV signature catalogues** (COSMIC CNV48, Drews CIN signatures, Tao/Sigminer CNV signatures).
 - Handles **SV and CNV data from OGM or NGS callers** via flexible input formats (SMAP/BEDPE for SVs, CNV exports/cns/bed for CNVs).
 - Includes **cohort-level analyses and visualisations** (spiral plots, exposure heatmaps, summary tables).
 - Uses a **modular Snakemake design** and a single YAML configuration file to control the full workflow.
 
-From raw SV/CNV calls to interpretable mutational signatures, PULPO v2.0 aims to make advanced structural and copy-number signature analysis accessible and reproducible, while remaining compatible with paediatric and non-paediatric cancer cohorts.
+From raw SV/CNV calls to interpretable mutational signatures, PULPO v1.0 aims to make advanced structural and copy-number signature analysis accessible and reproducible, while remaining compatible with paediatric and non-paediatric cancer cohorts.
 
 ## 📚 Table of Contents
 
@@ -73,8 +73,8 @@ From raw SV/CNV calls to interpretable mutational signatures, PULPO v2.0 aims to
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/OncologyHNJ/PULPO-v.2.0.0.git
-cd PULPO-v.2.0.0
+git clone https://github.com/OncologyHNJ/PULPO-v.1.0.git
+cd PULPO-v.1.0
 
 # 2. Create and activate the PULPO Conda environment with all required dependencies
 conda env create -f config/PULPO.yml
@@ -90,7 +90,7 @@ To run PULPO, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/OncologyHNJ/PULPO-v.2.0.0.git
+   git clone https://github.com/OncologyHNJ/PULPO-v.1.0.git
    cd PULPO
    ```
 
@@ -146,7 +146,7 @@ This will:
 
 The pipeline is controlled by a single YAML configuration file located in config/:
 
-- configpulpoOGM.yaml – main configuration file for PULPO v2.0.
+- configpulpoOGM.yaml – main configuration file for PULPO v1.0.
 
 You should copy and edit this file to adapt it to your own cohort.
 
@@ -168,9 +168,9 @@ For NGS-only analyses you can still use the same sample sheet and point PULPO to
 
 ```yaml
 directories:
-  workdirectory: "/path/to/PULPO-v.2.0.0"
+  workdirectory: "/path/to/PULPO-v.1.0"
   pythonenvdir: "/path/to/python3.10"
-  scriptsdir: "/path/to/PULPO-v.2.0.0/scripts"
+  scriptsdir: "/path/to/PULPO-v.1.0/scripts"
 ```
 - directories.workdirectory: base working directory where results/ and logs/ will be created.
 
@@ -211,7 +211,7 @@ analysis:
       
 ### 4. Input Sources and Formats
 
-PULPO v2.0 can work with both OGM and NGS calls:
+PULPO v1.0 can work with both OGM and NGS calls:
 
 ```yaml
 inputs:
@@ -386,7 +386,7 @@ logs/CNVs/Cohort/Tao/...```
 
 ## Repository Structure 🗂
 ```bash
-PULPO-v.2.0.0/
+PULPO-v.1.0/
 ├── Snakefile                # Main pipeline
 ├── config/
 │   ├── configpulpoOGM.yaml  # Main configuration file (edit for your cohort)
