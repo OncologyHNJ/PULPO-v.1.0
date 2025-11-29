@@ -15,9 +15,6 @@ args <- commandArgs(trailingOnly = TRUE)
 directorypatients <- args[1]
 outputcohort      <- args[2]
 
-# Example (for testing):
-# directorypatients <- "/home/user/MARTA/LABO/PULPO/results/CNVs/Patients"
-# outputcohort      <- "/home/user/MARTA/LABO/PULPO/results/CNVs/Cohort/SigProfiler/MatrixGenerator/Cohort.CNV48.matrix.tsv"
 
 cat("🔹 Merging CNV48 matrices from directory:", directorypatients, "\n")
 
