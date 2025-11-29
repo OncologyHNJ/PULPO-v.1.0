@@ -4,6 +4,7 @@
 # Description: Converts OGM CNV export files (.txt/.csv) into
 #              SigProfiler-compatible CNV tables (TSV format).
 # Author: Marta Portasany (v2025-10-31)
+# Pipeline: PULPO
 # ==================================================
 
 suppressPackageStartupMessages({
