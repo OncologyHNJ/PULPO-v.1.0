@@ -38,7 +38,7 @@ PULPO v1.0 is a major update of our Snakemake-based pipeline for analysing **str
 
 Unlike PULPO-Preliminary (now deprecated and kept only for reproducibility), PULPO v1.0:
 
-- Supports **multiple CNV signature catalogues** (COSMIC CNV48, Drews CIN signatures, Tao/Sigminer CNV signatures).
+- Supports **multiple CN signature catalogues** (COSMIC CNV48, Drews CIN signatures, Tao/Sigminer CNV signatures).
 - Handles **SV and CNV data from OGM or NGS callers** via flexible input formats (SMAP/BEDPE for SVs, CNV exports/cns/bed for CNVs).
 - Includes **cohort-level analyses and visualisations** (spiral plots, exposure heatmaps, summary tables).
 - Uses a **modular Snakemake design** and a single YAML configuration file to control the full workflow.
@@ -138,7 +138,7 @@ This will:
 - Prepare OGM/NGS data.
 - Perform SV and/or CNV preprocessing.
 - Run per-sample SigProfiler analyses.
-- Optionally run cohort-level COSMIC, Drews and Tao CNV signatures (if enabled).
+- Optionally run cohort-level COSMIC, Drews and Tao CN signatures (if enabled).
 
 
 ## Configuration ⚙️
@@ -313,19 +313,19 @@ snakemake 1.2_Preprocessing_CNVs --cores 4
 # Only individual-level SV signatures
 snakemake 2.1_Individualanalysis_SVs --cores 4
 
-# Only individual-level CNV signatures
+# Only individual-level CN signatures
 snakemake 2.2_Individualanalysis_CNVs --cores 4
 
 # Cohort-level SV analyses
 snakemake 3.1_Cohortanalysis_SVs --cores 4
 
-# Cohort-level CNV analyses
+# Cohort-level CN analyses
 snakemake 3.2_Cohortanalysis_CNVs --cores 4
 
-# Drews CNV signatures
+# Drews CN signatures
 snakemake Drews --cores 4
 
-# Tao CNV signatures
+# Tao CN signatures
 snakemake Tao --cores 4
 ```
 (Exact rule names may vary slightly depending on your Snakefile; check with snakemake -n.)
@@ -355,7 +355,7 @@ Organises OGM exports or input CNV/SV files into a standard per-patient layout.
     SV32 matrices and per-sample SV signatures.
 
     - 2.2_Individualanalysis_CNVs
-    CNV48 matrices and per-sample CNV signatures.
+    CNV48 matrices and per-sample CN signatures.
 
 #### 4. Cohort analysis
 
@@ -366,10 +366,10 @@ Organises OGM exports or input CNV/SV files into a standard per-patient layout.
       Cohort CNV48 matrices, COSMIC CNV48 signatures and plots.
 
     - Drews
-      Cohort-level Drews CIN CNV signatures.
+      Cohort-level Drews CIN CN signatures.
 
     - Tao
-      Cohort-level Tao/Sigminer CNV signatures.
+      Cohort-level Tao/Sigminer CN signatures.
 
 ### Error Handling and Debugging 🐞
 To see the exact shell commands and continue even if some samples fail:
