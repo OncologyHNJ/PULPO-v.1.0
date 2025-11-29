@@ -36,7 +36,7 @@
 
 PULPO v1.0 is a major update of our Snakemake-based pipeline for analysing **structural variants (SVs)** and **copy number variants (CNVs)** extracting **mutational signatures** from both **Optical Genome Mapping (OGM)** and **NGS-based** data. 
 
-Unlike v1.0 (now deprecated and kept only for reproducibility), PULPO v1.0:
+Unlike PULPO-Preliminary (now deprecated and kept only for reproducibility), PULPO v1.0:
 
 - Supports **multiple CNV signature catalogues** (COSMIC CNV48, Drews CIN signatures, Tao/Sigminer CNV signatures).
 - Handles **SV and CNV data from OGM or NGS callers** via flexible input formats (SMAP/BEDPE for SVs, CNV exports/cns/bed for CNVs).
