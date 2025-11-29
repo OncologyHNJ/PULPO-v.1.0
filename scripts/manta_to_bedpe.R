@@ -1,12 +1,4 @@
 #!/usr/bin/env Rscript
-
-#mapfile <- "/home/user/MARTA/LABO/PULPO/PULPO_OpenPBTA/config/samplesall.tsv"
-#infile  <- "/home/user/MARTA/LABO/PULPO/PULPO_OpenPBTA/processed/SVs/pbta-sv-manta.tsv"
-#outfile <- "/home/user/MARTA/LABO/PULPO/PULPO_OpenPBTA/processed/SVs/openpbta_sv_for_pulpo.bedpe"
-
-
-
-#!/usr/bin/env Rscript
 suppressPackageStartupMessages({
   library(data.table)
   library(stringr)
