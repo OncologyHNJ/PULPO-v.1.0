@@ -342,33 +342,33 @@ rule decompressOGM:
 
 
 ################################################################################################################################################################################
-#import subprocess, os, signal, time
+import subprocess, os, signal, time
 
-#pulpo_dir = os.path.join(workdirectory, ".pulpo"); os.makedirs(pulpo_dir, exist_ok=True)
-#pid_anim  = os.path.join(pulpo_dir, "anim.pid")
-#pid_tick  = os.path.join(pulpo_dir, "tick.pid")
+pulpo_dir = os.path.join(workdirectory, ".pulpo"); os.makedirs(pulpo_dir, exist_ok=True)
+pid_anim  = os.path.join(pulpo_dir, "anim.pid")
+pid_tick  = os.path.join(pulpo_dir, "tick.pid")
 
-#def _kill(pidfile):
-#    try:
-#        if os.path.exists(pidfile):
-#            with open(pidfile) as f: pid = int(f.read().strip())
-#            os.kill(pid, signal.SIGTERM); time.sleep(0.2); os.remove(pidfile)
-#    except Exception:
-#        pass
+def _kill(pidfile):
+    try:
+        if os.path.exists(pidfile):
+            with open(pidfile) as f: pid = int(f.read().strip())
+            os.kill(pid, signal.SIGTERM); time.sleep(0.2); os.remove(pidfile)
+    except Exception:
+        pass
 
-#onstart:
-#    if not os.environ.get("PULPO_NO_ANIM"):
-#        p1 = subprocess.Popen(["python","animate_pulpo.py","start"])
-#        with open(pid_anim,"w") as f: f.write(str(p1.pid))
-#        p2 = subprocess.Popen(["python","pulpo_progress.py"])
-#        with open(pid_tick,"w") as f: f.write(str(p2.pid))
+onstart:
+    if not os.environ.get("PULPO_NO_ANIM"):
+        p1 = subprocess.Popen(["python","animate_pulpo.py","start"])
+        with open(pid_anim,"w") as f: f.write(str(p1.pid))
+        p2 = subprocess.Popen(["python","pulpo_progress.py"])
+        with open(pid_tick,"w") as f: f.write(str(p2.pid))
 
-#onsuccess:
-#    _kill(pid_tick); _kill(pid_anim)
-#    subprocess.run(["python","animate_pulpo.py","success"])
+onsuccess:
+    _kill(pid_tick); _kill(pid_anim)
+    subprocess.run(["python","animate_pulpo.py","success"])
 
-#onerror:
-#    _kill(pid_tick); _kill(pid_anim)
-#    subprocess.run(["python","animate_pulpo.py","error"])
+onerror:
+    _kill(pid_tick); _kill(pid_anim)
+    subprocess.run(["python","animate_pulpo.py","error"])
 
 
