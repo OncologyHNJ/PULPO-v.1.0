@@ -35,11 +35,10 @@ Thank you for using us!
 running = True
 
 def animate():
-    """Muestra la animación por un tiempo limitado"""
-    for _ in range(5):  # Muestra la animación por 5 ciclos (~2.5 segundos)
+    for _ in range(5): 
         if not running:
             break
-        sys.stdout.write("\033[H\033[J")  # Limpiar pantalla
+        sys.stdout.write("\033[H\033[J")  
         print(octopus)
         print("\n🐙 Execution in progress... PULPO is running...")
         time.sleep(0.5)
