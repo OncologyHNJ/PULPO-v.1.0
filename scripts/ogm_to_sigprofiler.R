@@ -1,15 +1,19 @@
 #!/usr/bin/env Rscript
-# 4_SIGPROFILER_FROM_SMAP.R
-# Lee OGM .smap (como tu createbedpe: header=FALSE) y genera directamente:
-#   results/SVs/Patients/<ID>/SigProfiler/data/SigProfilerSVdf.bedpe
+# ==================================================
+# Script: ogm_to_sigprofiler.R
+# Description: Converts OGM SV export files (.smap) into
+#              SigProfiler-compatible SV format (bedpe).
+# Author: Marta Portasany (v2025-10-31)
+# Pipeline: PULPO
+# ==================================================
 
 args <- commandArgs(trailingOnly = TRUE)
 if (length(args) < 3) {
   stop("Uso: Rscript ogm_to_sigprofiler.R <bionanodirectory> <patient_id> <out_sigprofiler_bedpe>")
 }
-bionanodir <- args[1]          # .../results/DATA/Patients/
-patient_id <- args[2]          # p.ej., P_OpenPBTA_59
-outfile    <- args[3]          # .../results/SVs/Patients/<ID>/SigProfiler/data/SigProfilerSVdf.bedpe
+bionanodir <- args[1]          
+patient_id <- args[2]          
+outfile    <- args[3]         
 
 
 
