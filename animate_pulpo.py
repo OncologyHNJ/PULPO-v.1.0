@@ -8,7 +8,7 @@ import sys
 import time
 import threading
 
-# Imagen completa del pulpo
+# Full image of the octopus
 octopus = """
 
 PULPO V.1.0 is running...
